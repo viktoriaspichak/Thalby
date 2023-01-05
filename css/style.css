@@ -162,6 +162,9 @@ header nav ul li a{
     padding-bottom: 246px;
     margin: auto;
 }
+.our_sellers article{
+    max-width: 310px;
+}
 .our_sellers .ph{
     display: block;
     width: 100%;
