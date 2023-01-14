@@ -164,6 +164,7 @@ header nav ul li a{
 }
 .our_sellers article{
     max-width: 310px;
+    margin-bottom: 20px;
 }
 .our_sellers .ph{
     display: block;
@@ -202,4 +203,26 @@ header nav ul li a{
     text-decoration-line: underline;
     color: #000000;
     display:block;
+}
+.our_sellers .owl-dots{
+    display: flex;
+    justify-content: center;
+
+}
+.our_sellers .owl-dots .owl-dot span{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+.our_sellers .owl-dots .owl-dot.active span{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    background: black;
+
+
 }
