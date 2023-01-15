@@ -223,6 +223,133 @@ header nav ul li a{
     display: inline-block;
     border-radius: 50%;
     background: black;
-
-
 }
+.people_and_society{
+    background-color: rgba(204, 204, 204, 0.3);
+    padding: 76px 0 51px 0;
+}
+.people_and_society .container{
+    max-width:1164px;
+}
+.people_photo{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.people_photo image{
+    width: 100%;
+}
+.people_text{
+    max-width:532px;
+    padding-top: 70px;
+}
+.people_text h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people_text p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.people_text a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.culture_and_heritage{
+    background: rgba(204, 204, 204, 0.6);
+    padding: 76px 0 51px 0;
+}
+.culture_and_heritage .container{
+    max-width:1164px;
+}
+.people_photo2{
+    max-width: 385px;
+    margin-left: 50px;
+}
+.people_text2{
+    max-width:513px;
+    padding-top: 92px;
+    text-align: right;
+}
+.people_text2 h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people_text2 p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people_text2 a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.power_and_politics{
+    background: rgba(204, 204, 204, 0.3);
+    padding: 76px 0 51px 0;
+}
+.power_and_politics .container{
+    max-width: 1164px;
+}
+.people_photo3{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.people_photo image{
+    width: 100%;
+}
+.people_text3{
+    max-width:532px;
+    padding-top: 92px;
+}
+.people_text3 h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people_text3 p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 39px;
+}
+.people_text3 a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;}
