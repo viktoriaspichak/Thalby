@@ -164,7 +164,7 @@ header nav ul li a{
 }
 .our_sellers article{
     max-width: 310px;
-    margin-bottom: 20px;
+    margin: auto;
 }
 .our_sellers .ph{
     display: block;
@@ -207,6 +207,7 @@ header nav ul li a{
 .our_sellers .owl-dots{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 
 }
 .our_sellers .owl-dots .owl-dot span{
