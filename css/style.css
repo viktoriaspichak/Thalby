@@ -354,3 +354,112 @@ header nav ul li a{
     font-size: 17px;
     line-height: 20px;
     color: #000000;}
+
+.features{
+    padding-top: 190px;
+    padding-bottom: 290px;
+}
+.features h4{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 69px;
+}
+.features .items_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 55px;
+    padding-bottom: 56px;
+    /*margin-bottom: 52px;*/
+}
+.features .items_description .item{
+    width: 33%;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.features .items_description .item:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 26px;
+    background-color:#21F7EC;
+}
+.features .items_description .item:nth-child(2):before{
+    background-color: #33D3BC;
+}
+.features .items_description .item:nth-child(3):before{
+    background-color: #18A5C6;
+}
+.features .items_description:last-of-type .item:first-of-type:before{
+    background-color: #D38F62;
+}
+.features .items_description:last-of-type .item:nth-child(2):before{
+    background-color: #F94C43;
+}
+.features .items_description:last-of-type .item:nth-child(3):before{
+    background-color: #D399FF;
+}
+.features h5{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+#accordion{
+    margin-bottom:52px;
+}
+.ui-widget-content{
+border: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+.ui-icon{
+    background-image: none;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    overflow: auto;
+}
+.ui-icon:before {
+    content: "\f054";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    font-size: 45px;
+}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    background-image: none;
+}
+.ui-accordion .ui-accordion-header.ui-state-active{
+    display: block;
+}
+.ui-state-active .ui-icon:before {
+    content: "\f054";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    font-size: 45px;
+}
+.ui-state-active .ui-icon{
+    transition: 0.3s;
+    transform: rotate(90deg);
+    display: inline-block;
+}
