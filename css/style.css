@@ -463,3 +463,55 @@ border: none;
     transform: rotate(90deg);
     display: inline-block;
 }
+.transp_photos{
+   background-color:  #F0F0F0;
+    padding-bottom: 52px;
+}
+.discover{
+    max-width:1164px;
+    margin: auto;
+    position: relative;
+    top: -190px;
+}
+.discover article{
+    max-width: 288px;
+    margin: auto;
+}
+.discover .semi_photo{
+    display: block;
+    width: 100%;
+    margin-bottom: 35px;}
+
+.discover article p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+.discover .city{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.discover a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: block;
+
+}
