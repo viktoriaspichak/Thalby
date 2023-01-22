@@ -513,5 +513,88 @@ border: none;
     text-decoration-line: underline;
     color: #000000;
     display: block;
+}
+.keep_in_touch{
+    padding-top: 79px;
+    padding-bottom: 88px;
+}
+.keep_in_touch .container{
+    max-width: 570px;
+    text-align: center;
+}
+.keep_in_touch .container h4{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.keep_in_touch .container p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.form {
+    max-width: 366px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.form_text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.form_text input{
+    border: 1px solid #000000;
+    border-radius: 0px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    padding: 12px 0 11px 8px;
+    max-width: 153px;
 
 }
+.form .email{
+    border: 1px solid #000000;
+    border-radius: 0px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    padding: 13px 0 10px 8px;
+    width: 100%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.form button{
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7px 23px 10px;
+
+
+}
+
+
+
+
