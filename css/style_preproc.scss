@@ -1,0 +1,96 @@
+$main_font:'Roboto',sans-serif;
+$black_color:#000
+
+
+
+header{
+  padding: 16px 0 15px;
+  position: relative;
+.logo{
+  position: absolute;
+  left:calc(50% - 40px);
+}nav{
+  ul{  display: flex;
+    list-style: none;
+    li{
+      margin-right: 28px;
+    }
+  }
+ }
+
+
+}
+.container{
+  max-width: 1064px;
+  margin: auto;
+}
+.d-flex{
+  display: flex;
+}
+.items-center{
+  align-items: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+header nav ul li a{
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+  text-decoration: none;
+}
+.socials{
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 182px;
+  top: 7px;
+}
+.socials li:first-of-type a{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  bottom: -12px;
+  margin-right: 15px;
+}
+.socials li:nth-child(2) a{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  bottom: -2px;
+}
+.socials li:nth-child(3) a{
+  position: relative;
+  width: 36px;
+  height: 42px;
+}
+
+.fall_in_love{
+  background-color: #F0EFEB;;
+}
+.fall_in_love .container{
+  max-width:1088px;
+  padding-top:90px;
+}
+.fall_in_love .text h1{
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color:$black_color;
+  margin-bottom: 42px;
+}
+.fall_in_love .text p{
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color:$black_color;
+  margin-bottom:33px;
+}

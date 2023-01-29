@@ -1,10 +1,108 @@
+@media only screen and (max-width: 1283px){
+    .fall_in_love .photo{
+        left: 0;}
+
+}
+@media only screen and (max-width: 1081px){
+    header nav ul li a{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .fall_in_love .container{
+        margin-left: 10px;
+        padding-bottom: 90px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .people_and_society .container{
+        display: block;
+    }
+    .people_photo{
+        margin: auto;
+        margin: 7px;
+    }
+    .people_text{
+        margin: auto;
+        text-align: center;
+    }
+    .culture_and_heritage .container{
+        display: block;
+    }
+    .people_photo2{
+        margin: auto;
+        margin: 7px;
+    }
+    .people_text2{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .power_and_politics .container{
+        display: block;
+    }
+    .people_photo3{
+        margin: auto;
+        margin: 7px;
+    }
+    .people_text3{
+        margin: auto;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 890px){
+    .fall_in_love .photo{
+        overflow: hidden;
+    }
+
+}
+@media only screen and (max-width: 875px){
+    footer{
+        padding: 51px 0 16px 0;
+    }
+    .thalby{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 767px) {
     .features .items_description .item{
         width: 50%;
+    }
+    .discover{
+        display: block;
+    }
+    .discover a{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 572px){
+    .logo2{
+        margin-bottom: 50px;
+
+    }
+    .list ul li a{
+        font-size: 12px;
     }
 }
 @media only screen and (max-width: 500px) {
     .features .items_description .item{
         width: 100%;
+    }
+}
+@media only screen and (max-width: 420px){
+    .form_text{
+        display: inline-block;
+    }
+    .form_text input{
+        max-width: 145px;
+    }
+    .form .email{
+        width: 98%;
     }
 }

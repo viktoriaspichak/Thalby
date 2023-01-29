@@ -106,9 +106,14 @@ header nav ul li a{
     text-decoration: none;
 }
 .fall_in_love .photo{
+    max-width: 600px;
     position: relative;
     top: -70px;
     left: 100px;
+}
+.fall_in_love .photo image{
+    width: 100%;
+   height: auto;
 }
 .our_guides{
     padding-top: 60px;
@@ -236,7 +241,8 @@ header nav ul li a{
     max-width: 385px;
     margin-right: 50px;
 }
-.people_photo image{
+.people_photo .ph2{
+    display: block;
     width: 100%;
 }
 .people_text{
@@ -280,6 +286,10 @@ header nav ul li a{
     max-width: 385px;
     margin-left: 50px;
 }
+.people_photo2 .ph2{
+    width: 100%;
+    display: block;
+}
 .people_text2{
     max-width:513px;
     padding-top: 92px;
@@ -310,6 +320,8 @@ header nav ul li a{
     font-size: 17px;
     line-height: 20px;
     color: #000000;
+    display: block;
+
 }
 .power_and_politics{
     background: rgba(204, 204, 204, 0.3);
@@ -322,8 +334,9 @@ header nav ul li a{
     max-width: 385px;
     margin-right: 50px;
 }
-.people_photo image{
+.people_photo3 .ph2{
     width: 100%;
+    display: block;
 }
 .people_text3{
     max-width:532px;
@@ -591,9 +604,64 @@ border: none;
     text-align: center;
     color: #FFFFFF;
     padding: 7px 23px 10px;
+}
+footer{
+    background: #020202;
+    padding: 51px 148px 16px 148px;
+}
+.thalby{
+    max-width: 1144px;
+    padding: 0 56px 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo2{
+    max-width:487px;
+}
+.logo2 .frame{
+    display: block;
+    margin-bottom: 37px;
+}
+.logo2 ul{
+    display: flex;
+}
+.logo2 ul li a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.list{
+    display: flex;
+}
+.list ul li a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-bottom:12px;
+}
+.list .another{
+    display: block;
+    margin-bottom: 36px;
+}
+.list .list_about{
+    margin-right: 168px;
+}
+footer p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
 
 
 }
+
 
 
 
