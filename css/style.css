@@ -24,14 +24,14 @@ header .logo{
 .space-between{
     justify-content: space-between;
 }
-header nav ul{
+.header-nav ul{
     display: flex;
     list-style: none;
 }
-header nav ul li{
+.header-nav ul li{
     margin-right: 28px;
 }
-header nav ul li a{
+.header-nav ul li a{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 700;

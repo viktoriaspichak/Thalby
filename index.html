@@ -18,27 +18,37 @@
   <link rel="stylesheet" href="css/style_preproc.scss">
 </head>
 <body>
-<header>
-  <div class="container d-flex items-center space-between">
-    <a href="#" class="logo">
-      <img src="images/Rectangle.svg" alt="logo">
-    </a>
-    <nav>
-      <ul>
-        <li>
-          <a href="#">Shop</a>
-        </li>
-        <li>
-          <a href="#">Collections</a>
-        </li>
-        <li>
-          <a href="#">Try a Free Guide</a>
-        </li>
-        <li>
-          <a href="#">Stories</a>
-        </li>
-      </ul>
+  <header class="header">
+
+      <a href="#" class="logo">
+        <img src="images/Rectangle.svg" alt="logo">
+      </a>
+    <nav class=" container header-nav">
+      <div class="header-nav__inner ">
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a href="/">Shop</a>
+          </li>
+          <li class="header-menu-item">
+            <a rel="nofollow" href="/works/">Collections</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="/technologies/">Try a Free Guide</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="/services/">Stories</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+
+    <a href="#" class="device-menu">
+      <div class="device-menu__inner">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </a>
     <ul class="socials">
       <li>
         <a href="#" target="_blank" title="Instagram">
@@ -56,8 +66,8 @@
         </a>
       </li>
     </ul>
-  </div>
-</header>
+  </header>
+
 <section class="fall_in_love">
   <div class="container d-flex space-between">
     <div class="text">
