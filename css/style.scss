@@ -4,7 +4,10 @@ $black_color:#000000;
 $gray_color:#1C1B1B;
 $white_color:#F0EFEB;
 
-
+*{
+  margin: 0;
+  padding: 0;
+}
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
@@ -23,6 +26,7 @@ header{
   @include max-screen(928px){
     display: none;
   }
+
   ul{  display: flex;
     list-style: none;
     @include max-screen(928px){
@@ -157,14 +161,20 @@ header{
   }
   .photo{
     max-width: 600px;
+    width: 100%;
     position: relative;
     top: -70px;
     left: 100px;
     @include max-screen(1283px){
       left: 0;
+
     }
     @include max-screen(890px){
       overflow: hidden;
+      width: 120%;
+    }
+    @include max-screen(758px){
+      display: none;
     }
 
     image{
@@ -456,7 +466,16 @@ header{
 .features {
   padding-top: 190px;
   padding-bottom: 290px;
-
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 69px;
+  }
   .items_description {
     display: flex;
     justify-content: space-between;
@@ -464,7 +483,16 @@ header{
     flex-wrap: wrap;
     padding-top: 55px;
     padding-bottom: 56px;
-    /*margin-bottom: 52px;*/
+    &:last-of-type .item:first-of-type:before{
+      background-color: #D38F62;
+    }
+    &:last-of-type .item:nth-child(2):before{
+      background-color: #F94C43;
+    }
+    &:last-of-type .item:nth-child(3):before{
+      background-color: #D399FF;
+    }
+    }
     .item {
       width: 33%;
       text-align: center;
@@ -480,8 +508,7 @@ header{
       @include max-screen(500px){
         width: 100%;
       }
-
-      :before {
+      &:before {
         content: "";
         display: block;
         width: 70px;
@@ -491,38 +518,13 @@ header{
         margin-bottom: 26px;
         background-color: #21F7EC;
       }
-
-      :nth-child(2):before {
+      &:nth-child(2):before {
         background-color: #33D3BC;
       }
 
-      :nth-child(3):before {
+      &:nth-child(3):before{
         background-color: #18A5C6;
       }
-
-      :first-of-type:before {
-        background-color: #D38F62;
-      }
-
-      :nth-child(2):before {
-        background-color: #F94C43;
-      }
-
-      :nth-child(3):before {
-        background-color: #D399FF;
-      }
-    }
-
-    h4 {
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 36px;
-      line-height: 42px;
-      text-align: center;
-      color: #000000;
-      margin-bottom: 69px;
-    }
   }
   h5{
     font-family: 'Roboto',sans-serif;
@@ -762,13 +764,6 @@ footer{
     }
     .list{
       display: flex;
-    }
-      .another{
-        display: block;
-        margin-bottom: 36px;
-      }
-      .list_about{
-        margin-right: 128px;
       ul{
         li{
           a{
@@ -782,10 +777,19 @@ footer{
             display: block;
             margin-bottom:12px;
             @include max-screen(572px){
-              font-size: 12px;
-
+              font-size: 12px;}
           }
         }
+      }
+    }
+      .another{
+        display: block;
+        margin-bottom: 36px;
+      }
+      .list_about{
+        margin-right: 128px;
+      ul{
+        li{
       }
     }
   }
