@@ -762,8 +762,6 @@ footer{
     }
     .list{
       display: flex;
-      @include max-screen(370px){
-      }
     }
       .another{
         display: block;
