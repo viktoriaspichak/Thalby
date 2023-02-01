@@ -236,7 +236,7 @@ header nav ul li a {
   margin-bottom: 47px;
 }
 .our_guides .text .second_p {
-  font-family: "Roboto,", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -309,7 +309,7 @@ header nav ul li a {
   height: 15px;
   display: inline-block;
   border-radius: 50%;
-  background: black;
+  background: #000000;
 }
 
 .people_and_society {
@@ -752,7 +752,7 @@ header nav ul li a {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: #FFFFFF;
+  color: #F0EFEB;
   padding: 7px 23px 10px;
 }
 .keep_in_touch .container .form_text {
@@ -799,7 +799,7 @@ footer p {
   font-size: 14px;
   line-height: 23px;
   text-align: center;
-  color: #FFFFFF;
+  color: #F0EFEB;
 }
 footer .thalby {
   max-width: 1144px;
@@ -840,7 +840,7 @@ footer .thalby .list ul li a {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #F0EFEB;
   text-decoration: none;
   display: block;
   margin-bottom: 12px;
@@ -870,14 +870,20 @@ footer .thalby .list_about {
     height: 40px;
     display: block;
   }
-  .device-menu .device-menu__inner {
-    width: 24px;
-    height: 18px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  .device-menu .open span:nth-child(1) {
+    top: 10px;
+    right: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .device-menu .open span:nth-child(2) {
+    opacity: 0;
+  }
+  .device-menu .open span:nth-child(3) {
+    top: 10px;
+    right: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   .device-menu span {
     position: absolute;
@@ -901,20 +907,14 @@ footer .thalby .list_about {
     -webkit-transition: rotate, 0.3s;
     transition: rotate, 0.3s;
   }
-  .device-menu.open span:nth-child(1) {
-    top: 10px;
-    right: 0;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  .device-menu.open span:nth-child(2) {
-    opacity: 0;
-  }
-  .device-menu.open span:nth-child(3) {
-    top: 10px;
-    right: 0;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+  .device-menu .device-menu__inner {
+    width: 24px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 .header-nav.active {
